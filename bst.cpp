@@ -65,5 +65,15 @@ int main() {
     postorder(root);
 
     return 0;
+    printf("Inorder: ");
+    inorder(root);
+
+    printf("\nPreorder: ");
+    preorder(root);
+
+    printf("\nPostorder: ");
+    postorder(root);
+
+    return 0;
 }
 
